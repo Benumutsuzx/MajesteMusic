@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 𝐁𝐞𝐧𝐢 𝐆𝐫𝐮𝐛𝐚 𝐄𝐤𝐥𝐞 🎉", url=f"https://t.me/MajesteMusicProBot?startgroup=true"
+                        "🎉 𝐁𝐞𝐧𝐢 𝐆𝐫𝐮𝐛𝐚 𝐄𝐤𝐥𝐞 🎉", url=f"https://t.me/benumutsuzstartgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/MajesteMusicAsistan"
+                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/goxyoutube"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip"
+                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/benumutsuz"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/MajesteBotlar"
+                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/umutsuzhizmet"
                     )
                 ]
                 
@@ -53,7 +53,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/benumutsuz")
                  ]
              ]
          )
