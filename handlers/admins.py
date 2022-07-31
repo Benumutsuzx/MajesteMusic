@@ -46,7 +46,7 @@ async def stop(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("🙄 **Şu anda müzik çalmıyor**")
+        await message.reply_text("🤨 **Şu anda müzik çalmıyor**")
     else:
         try:
             queues.clear(chat_id)
@@ -67,7 +67,7 @@ async def atla(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        a = await message.reply_text("Atlatılacak bişey yok!")
+        a = await message.reply_text("😳 Atlatılacak bişey yok!")
         await sleep(3)
         await a.delete()
     else:
@@ -90,7 +90,7 @@ async def atla(_, message: Message):
         await a.delete()
 
 # Yetki Vermek için (ver) Yetki almak için (al) komutlarını ekledim.
-# Gayet güzel çalışıyor. @Mahoaga Tarafından Eklenmiştir. 
+# Gayet güzel çalışıyor. @MacroPem Tarafından Eklenmiştir. 
 @Client.on_message(command("ver") & other_filters)
 @authorized_users_only
 async def authenticate(client, message):
@@ -147,5 +147,5 @@ async def update_admin(client, message):
     admins[message.chat.id] = new_admins
     await client.send_message(
         message.chat.id,
-        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!**"
+        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!** \n **Emek Var Kardeşim Emek Geliştirici @MacroPem**"
     )
