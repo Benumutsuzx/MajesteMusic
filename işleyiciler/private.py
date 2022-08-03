@@ -75,7 +75,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MacroPem")
+            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/Benumutsuz")
         ]
       ]
      ))
@@ -88,7 +88,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MacroPem")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/Benumutsuz")
                  ],
                  [
                      InlineKeyboardButton(
@@ -106,7 +106,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/MacroPem")
+                         "⚙ Geliştirici", url="https://t.me/Benumutsuz")
                  ],
                  [
                      InlineKeyboardButton(
@@ -132,7 +132,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/applemusicbots"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑", url="https://t.me/MacroPem"
+                        "📝 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑", url="https://t.me/Benumutsuz"
                     )
                 ],
                 [
