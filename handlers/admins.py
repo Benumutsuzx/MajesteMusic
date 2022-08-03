@@ -147,5 +147,5 @@ async def update_admin(client, message):
     admins[message.chat.id] = new_admins
     await client.send_message(
         message.chat.id,
-        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!** \n **Emek Var Kardeşim Emek Geliştirici @MacroPem**"
+        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!** \n\n **ANCA MEZARDA USLANIRSINIZ!**"
     )
